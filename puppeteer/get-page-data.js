@@ -49,7 +49,7 @@ const puppeteer = require('puppeteer');
 
     // 截图
     await page.screenshot({
-        path: '忘情水-刘德华.png',
+        path: 'puppeteer/忘情水-刘德华.png',
         fullPage: true,
     });
 
